@@ -1,8 +1,8 @@
 require('dotenv').config()
 const Airtable = require('airtable-node')
 
-const airtable = new Airtable({ apiKey: 'keyHPnsf8P3NwHwId' })
-  .base('appRpwOOjOyiPQHi9')
+const airtable = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY })
+  .base('appNu7IoGFnmMaoRV')
   .table('products')
 
 exports.handler = async (event, context, cb) => {
@@ -10,9 +10,10 @@ exports.handler = async (event, context, cb) => {
     const { records } = await airtable.list()
     const products = records.map((product) => {
       const { id } = product
-      const { name, image, price } = product.fields
-      const url = image[0].url
-      return { id, name, url, price }
+      const { name, image, price, desc, company, category, colors, shipping } =
+        product.fields
+      const img = image[0].url
+      return { id, name, img, price, desc, company, category, colors, shipping }
     })
     return {
       statusCode: 200,
