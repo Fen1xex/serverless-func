@@ -133,68 +133,9 @@ p {
 /*  global classes */
 
 /* section */
-.section {
-  padding: 5rem 0;
-}
-.section-center {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: var(--max-width);
-}
-
-@media screen and (min-width: 992px) {
-  .section-center {
-    width: 95vw;
-  }
-}
-/*
-=============== 
-Navbar
-===============
-*/
-.nav {
-  height: 5rem;
+.center {
+  height: 95vh;
   display: flex;
+  align-items: center;
   justify-content: center;
-  align-items: center;
-  background: var(--clr-primary-5);
-}
-.nav-header {
-  width: 90vw;
-  max-width: var(--max-width);
-  display: flex;
-  align-items: center;
-}
-.nav-header img {
-  width: 10rem;
-  margin-right: 5rem;
-}
-.nav-header a {
-  display: block;
-  letter-spacing: var(--spacing);
-  color: var(--clr-white);
-}
-
-/*
-=============== 
-Examples
-===============
-*/
-.title {
-  margin-bottom: 2rem;
-}
-.examples h1 {
-  margin-bottom: 3rem;
-}
-.examples a {
-  letter-spacing: var(--spacing);
-  color: var(--clr-primary-5);
-  transition: var(--transition);
-  display: block;
-  margin-bottom: 0.75rem;
-  text-transform: capitalize;
-}
-
-.examples a:hover {
-  color: var(--clr-primary-3);
 }
