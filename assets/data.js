@@ -9,6 +9,8 @@ const items = [
     category: 'chair',
     colors: ['#964B00'],
     shipping: true,
+    stars: 4,
+    reviews: 37,
   },
   {
     id: 'recBRNaVcjsNJFKw0',
@@ -20,6 +22,8 @@ const items = [
     category: 'table',
     colors: ['#964B00'],
     shipping: true,
+    stars: 2.7,
+    reviews: 5,
   },
   {
     id: 'recEG3mYupfXbLlGW',
@@ -31,6 +35,8 @@ const items = [
     category: 'taburetka',
     colors: ['#964B00', '#202020'],
     shipping: true,
+    stars: 3,
+    reviews: 8,
   },
   {
     id: 'recJLoLcs3XfC73z7',
@@ -42,6 +48,8 @@ const items = [
     category: 'chair',
     colors: ['#202020', '#964B00'],
     shipping: true,
+    stars: 2,
+    reviews: 5,
   },
   {
     id: 'recJf6esXFGaijnwG',
@@ -53,6 +61,8 @@ const items = [
     category: 'sofa',
     colors: ['#964B00', '#f7f7f7', '#202020'],
     shipping: true,
+    stars: 5,
+    reviews: 12,
   },
   {
     id: 'recMKbHXJIivt3aOn',
@@ -64,6 +74,8 @@ const items = [
     category: 'taburetka',
     colors: ['#964B00'],
     shipping: true,
+    stars: 5,
+    reviews: 67,
   },
   {
     id: 'recTALp36CQJ4QP6T',
@@ -75,6 +87,8 @@ const items = [
     category: 'table',
     colors: ['#f7f7f7', '#202020', '#964B00'],
     shipping: true,
+    stars: 4,
+    reviews: 25,
   },
   {
     id: 'recUxjDOosrBcE1DJ',
@@ -86,6 +100,8 @@ const items = [
     category: 'bed',
     colors: ['#f7f7f7'],
     shipping: true,
+    stars: 3.5,
+    reviews: 4,
   },
   {
     id: 'recYDuspBmSXCs7UT',
@@ -97,6 +113,8 @@ const items = [
     category: 'sofa',
     colors: ['#964B00', '#202020'],
     shipping: true,
+    stars: 3,
+    reviews: 10,
   },
   {
     id: 'recaHqzMtUHT3MXMC',
@@ -108,6 +126,8 @@ const items = [
     category: 'chair',
     colors: ['#964B00'],
     shipping: true,
+    stars: 4.9,
+    reviews: 10,
   },
   {
     id: 'recaSv6LZAcDKA5GO',
@@ -119,6 +139,8 @@ const items = [
     category: 'taburetka',
     colors: ['#964B00'],
     shipping: true,
+    stars: 5,
+    reviews: 69,
   },
   {
     id: 'recdckVvXEqnASRtm',
@@ -130,6 +152,8 @@ const items = [
     category: 'chair',
     colors: ['#964B00', '#f7f7f7'],
     shipping: true,
+    stars: 3.5,
+    reviews: 15,
   },
   {
     id: 'recfAS2cmBPtmnxjF',
@@ -141,6 +165,8 @@ const items = [
     category: 'sofa',
     colors: ['#964B00'],
     shipping: true,
+    stars: 3.5,
+    reviews: 1,
   },
   {
     id: 'recgENsFvef1kz3Ci',
@@ -152,6 +178,8 @@ const items = [
     category: 'chair',
     colors: ['#FFFF00'],
     shipping: true,
+    stars: 5,
+    reviews: 41,
   },
   {
     id: 'reci3TR3YEIsKSGwY',
@@ -163,6 +191,8 @@ const items = [
     category: 'sofa',
     colors: ['#f7f7f7'],
     shipping: true,
+    stars: 2,
+    reviews: 2,
   },
   {
     id: 'reckFAq7A0OEWPlbm',
@@ -174,6 +204,8 @@ const items = [
     category: 'taburetka',
     colors: ['#f7f7f7'],
     shipping: true,
+    stars: 4.6,
+    reviews: 20,
   },
   {
     id: 'reckJqeOp0q41weHz',
@@ -185,6 +217,8 @@ const items = [
     category: 'sofa',
     colors: ['#f7f7f7', '#202020'],
     shipping: true,
+    stars: 4,
+    reviews: 9,
   },
   {
     id: 'recmLd5c1dKpp0vrp',
@@ -196,6 +230,8 @@ const items = [
     category: 'chair',
     colors: ['#964B00'],
     shipping: true,
+    stars: 3.5,
+    reviews: 14,
   },
   {
     id: 'recq5c4ubBxs7rEur',
@@ -207,6 +243,8 @@ const items = [
     category: 'bed',
     colors: ['#964B00', '#202020'],
     shipping: true,
+    stars: 2.4,
+    reviews: 3,
   },
   {
     id: 'recsjYb0qhG71qHdF',
@@ -218,6 +256,8 @@ const items = [
     category: 'chair',
     colors: ['#f7f7f7'],
     shipping: true,
+    stars: 5,
+    reviews: 11,
   },
 ]
 
