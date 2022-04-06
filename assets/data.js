@@ -11,6 +11,7 @@ const items = [
     shipping: true,
     stars: 4,
     reviews: 37,
+    stock: 7,
   },
   {
     id: 'recBRNaVcjsNJFKw0',
@@ -24,6 +25,7 @@ const items = [
     shipping: true,
     stars: 2.7,
     reviews: 5,
+    stock: 5,
   },
   {
     id: 'recEG3mYupfXbLlGW',
@@ -37,6 +39,7 @@ const items = [
     shipping: true,
     stars: 3,
     reviews: 8,
+    stock: 5,
   },
   {
     id: 'recJLoLcs3XfC73z7',
@@ -50,6 +53,7 @@ const items = [
     shipping: true,
     stars: 2,
     reviews: 5,
+    stock: 1,
   },
   {
     id: 'recJf6esXFGaijnwG',
@@ -63,6 +67,7 @@ const items = [
     shipping: true,
     stars: 5,
     reviews: 12,
+    stock: 7,
   },
   {
     id: 'recMKbHXJIivt3aOn',
@@ -76,6 +81,7 @@ const items = [
     shipping: true,
     stars: 5,
     reviews: 67,
+    stock: 11,
   },
   {
     id: 'recTALp36CQJ4QP6T',
@@ -89,6 +95,7 @@ const items = [
     shipping: true,
     stars: 4,
     reviews: 25,
+    stock: 2,
   },
   {
     id: 'recUxjDOosrBcE1DJ',
@@ -102,6 +109,7 @@ const items = [
     shipping: true,
     stars: 3.5,
     reviews: 4,
+    stock: 7,
   },
   {
     id: 'recYDuspBmSXCs7UT',
@@ -115,6 +123,7 @@ const items = [
     shipping: true,
     stars: 3,
     reviews: 10,
+    stock: 8,
   },
   {
     id: 'recaHqzMtUHT3MXMC',
@@ -128,6 +137,7 @@ const items = [
     shipping: true,
     stars: 4.9,
     reviews: 10,
+    stock: 3,
   },
   {
     id: 'recaSv6LZAcDKA5GO',
@@ -141,6 +151,7 @@ const items = [
     shipping: true,
     stars: 5,
     reviews: 69,
+    stock: 12,
   },
   {
     id: 'recdckVvXEqnASRtm',
@@ -154,6 +165,7 @@ const items = [
     shipping: true,
     stars: 3.5,
     reviews: 15,
+    stock: 6,
   },
   {
     id: 'recfAS2cmBPtmnxjF',
@@ -167,6 +179,7 @@ const items = [
     shipping: true,
     stars: 3.5,
     reviews: 1,
+    stock: 5,
   },
   {
     id: 'recgENsFvef1kz3Ci',
@@ -180,6 +193,7 @@ const items = [
     shipping: true,
     stars: 5,
     reviews: 41,
+    stock: 9,
   },
   {
     id: 'reci3TR3YEIsKSGwY',
@@ -193,6 +207,7 @@ const items = [
     shipping: true,
     stars: 2,
     reviews: 2,
+    stock: 11,
   },
   {
     id: 'reckFAq7A0OEWPlbm',
@@ -206,6 +221,7 @@ const items = [
     shipping: true,
     stars: 4.6,
     reviews: 20,
+    stock: 5,
   },
   {
     id: 'reckJqeOp0q41weHz',
@@ -219,6 +235,7 @@ const items = [
     shipping: true,
     stars: 4,
     reviews: 9,
+    stock: 0,
   },
   {
     id: 'recmLd5c1dKpp0vrp',
@@ -232,6 +249,7 @@ const items = [
     shipping: true,
     stars: 3.5,
     reviews: 14,
+    stock: 7,
   },
   {
     id: 'recq5c4ubBxs7rEur',
@@ -245,6 +263,7 @@ const items = [
     shipping: true,
     stars: 2.4,
     reviews: 3,
+    stock: 3,
   },
   {
     id: 'recsjYb0qhG71qHdF',
@@ -258,6 +277,7 @@ const items = [
     shipping: true,
     stars: 5,
     reviews: 11,
+    stock: 3,
   },
 ]
 

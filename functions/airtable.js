@@ -21,6 +21,7 @@ exports.handler = async (event, context, cb) => {
         shipping,
         stars,
         reviews,
+        stock,
       } = product.fields
       const img = image[0].url
       return {
@@ -35,6 +36,7 @@ exports.handler = async (event, context, cb) => {
         shipping,
         stars,
         reviews,
+        stock,
       }
     })
     return {
